@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS note (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50) NOT NULL,
+    description VARCHAR(500) NOT NULL,
+    creation_date TIMESTAMP NOT NULL
+);
